@@ -1,0 +1,5 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Android clang version 21.0.0 (https://github.com/HomuHomu833/llvm-custom 62d18923e0836fef09de95de5a774f56b2434d1a)
+Target: aarch64-unknown-linux-android25
+Thread model: posix
+InstalledDir: /opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/bin

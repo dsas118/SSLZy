@@ -1,0 +1,6 @@
+id=sslsy
+name=SSLZy - Zygisk SSL Bypass
+version=v1.0
+versionCode=1
+author=DSAS118
+description=Stealth SSL Pinning Bypass using Zygisk and Dobby. Injects native hooks into SSL verification.

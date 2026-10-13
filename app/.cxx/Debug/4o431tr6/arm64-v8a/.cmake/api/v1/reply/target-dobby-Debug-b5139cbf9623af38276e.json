@@ -1,0 +1,828 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/storage/internal_new/project/SSLZy/app/build/intermediates/cxx/Debug/4o431tr6/obj/arm64-v8a/libdobby.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"dobby/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 292,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 344,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 327,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 246,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 296,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti -fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BUILD_WITH_TRAMPOLINE_ASM"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "COMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20261013\""
+				},
+				{
+					"define" : "dobby_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./source"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/source/dobby"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./external"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./external/logging"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./builtin-plugin"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				16,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				38,
+				39,
+				40,
+				41,
+				43,
+				44,
+				45
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti -fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -fno-limit-debug-info  -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BUILD_WITH_TRAMPOLINE_ASM"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "COMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20261013\""
+				},
+				{
+					"define" : "dobby_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./source"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/source/dobby"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./external"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./external/logging"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./builtin-plugin"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				11,
+				42
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -x assembler-with-cpp -fno-limit-debug-info  -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BUILD_WITH_TRAMPOLINE_ASM"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "COMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20261013\""
+				},
+				{
+					"define" : "dobby_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./source"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/source/dobby"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./external"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./external/logging"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/./builtin-plugin"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				36,
+				37
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/sysroot"
+			}
+		}
+	],
+	"id" : "dobby::@fb579df6436f49169c19",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/sysroot"
+		}
+	},
+	"name" : "dobby",
+	"nameOnDisk" : "libdobby.so",
+	"paths" : 
+	{
+		"build" : "dobby",
+		"source" : "dobby"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "auto-source-group\\include",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\core\\assembler",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\core\\codegen",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\InstructionRelocation\\arm",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\InstructionRelocation\\arm64",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\InstructionRelocation\\x86",
+			"sourceIndexes" : 
+			[
+				8,
+				9
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\InstructionRelocation\\x64",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\InstructionRelocation\\x86\\x86_insn_decode",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\InterceptRouting",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\InterceptRouting\\InstrumentRouting",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\InterceptRouting\\NearBranchTrampoline",
+			"sourceIndexes" : 
+			[
+				17,
+				43
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\TrampolineBridge\\Trampoline",
+			"sourceIndexes" : 
+			[
+				18,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\TrampolineBridge\\ClosureTrampolineBridge\\arm",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\TrampolineBridge\\ClosureTrampolineBridge\\arm64",
+			"sourceIndexes" : 
+			[
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				36,
+				37
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\TrampolineBridge\\ClosureTrampolineBridge\\x86",
+			"sourceIndexes" : 
+			[
+				30,
+				31,
+				32
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\TrampolineBridge\\ClosureTrampolineBridge\\x64",
+			"sourceIndexes" : 
+			[
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"name" : "auto-source-group\\source",
+			"sourceIndexes" : 
+			[
+				38
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\Backend\\UserMode\\PlatformUtil\\Linux",
+			"sourceIndexes" : 
+			[
+				39
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\Backend\\UserMode\\UnifiedInterface",
+			"sourceIndexes" : 
+			[
+				40
+			]
+		},
+		{
+			"name" : "auto-source-group\\source\\Backend\\UserMode\\ExecMemory",
+			"sourceIndexes" : 
+			[
+				41,
+				42
+			]
+		},
+		{
+			"name" : "auto-source-group\\external\\logging",
+			"sourceIndexes" : 
+			[
+				44
+			]
+		},
+		{
+			"name" : "auto-source-group\\builtin-plugin\\SymbolResolver\\elf",
+			"sourceIndexes" : 
+			[
+				45
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "dobby/include/dobby.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/core/assembler/assembler-arm.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/core/assembler/assembler-ia32.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/core/assembler/assembler-x64.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/core/codegen/codegen-arm.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/core/codegen/codegen-ia32.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/InstructionRelocation/arm64/InstructionRelocationARM64.cc",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/InstructionRelocation/x86/InstructionRelocationX86.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/InstructionRelocation/x86/InstructionRelocationX86Shared.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/InstructionRelocation/x64/InstructionRelocationX64.cc",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "dobby/source/InstructionRelocation/x86/x86_insn_decode/x86_insn_decode.c",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "dobby/source/InterceptRouting/InterceptRouting.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "dobby/source/InterceptRouting/InlineHookRouting.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "dobby/source/InterceptRouting/InstrumentRouting.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "dobby/source/InterceptRouting/RoutingPlugin.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/InterceptRouting/InstrumentRouting/instrument_routing_handler.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "dobby/source/InterceptRouting/NearBranchTrampoline/NearBranchTrampoline.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/Trampoline/trampoline_arm64.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/Trampoline/trampoline_x86.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/Trampoline/trampoline_x64.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/helper_arm.cc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/helper_arm64.cc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/closure_bridge_arm64.cc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/ClosureTrampolineARM64.cc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/closure_bridge_arm64.asm",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/closure_trampoline_arm64.asm",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/x86/helper_x86.cc",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/x86/closure_bridge_x86.cc",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/x86/ClosureTrampolineX86.cc",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/helper_x64.cc",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/closure_bridge_x64.cc",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/ClosureTrampolineX64.cc",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/closure_bridge_x64.asm",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/closure_trampoline_x64.asm",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/dobby.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/Backend/UserMode/PlatformUtil/Linux/ProcessRuntime.cc",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/Backend/UserMode/UnifiedInterface/platform-posix.cc",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/Backend/UserMode/ExecMemory/code-patch-tool-posix.cc",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "dobby/source/Backend/UserMode/ExecMemory/clear-cache-tool-all.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/source/InterceptRouting/NearBranchTrampoline/near_trampoline_arm64.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/external/logging/logging.cc",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dobby/builtin-plugin/SymbolResolver/elf/dobby_symbol_resolver.cc",
+			"sourceGroupIndex" : 22
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

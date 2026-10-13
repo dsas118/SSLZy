@@ -1,0 +1,84 @@
+{
+  "buildFiles": [
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/CMakeLists.txt",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/CMakeLists.txt",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver/CMakeLists.txt",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/cmake/Macros.cmake",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/cmake/Util.cmake",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/cmake/auto_source_group.cmake",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/cmake/build_environment_check.cmake",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/cmake/compiler_and_linker.cmake",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/cmake/xcode_generator_helper.cmake",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/external/logging/CMakeLists.txt",
+    "/storage/internal_new/project/SSLZy/app/src/main/cpp/dobby/external/osbase/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/opt/cmake/cmake-3.22.1/bin/ninja",
+      "-C",
+      "/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/opt/cmake/cmake-3.22.1/bin/ninja",
+    "-C",
+    "/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "dobby::@fb579df6436f49169c19": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "dobby",
+      "output": "/storage/internal_new/project/SSLZy/app/build/intermediates/cxx/Debug/4o431tr6/obj/arm64-v8a/libdobby.so",
+      "runtimeFiles": []
+    },
+    "dobby_static::@fb579df6436f49169c19": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "dobby_static",
+      "output": "/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/libdobby.a"
+    },
+    "dobby_symbol_resolver::@ae8170e007b0dbbeb132": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "dobby_symbol_resolver",
+      "output": "/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/builtin-plugin/SymbolResolver/libdobby_symbol_resolver.a"
+    },
+    "logging::@9c6456fefc909ebba7e0": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "logging",
+      "output": "/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/external/logging/liblogging.a"
+    },
+    "osbase::@480db58ddda8864805da": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "osbase",
+      "output": "/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/external/osbase/libosbase.a"
+    },
+    "sslsy::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "sslsy",
+      "output": "/storage/internal_new/project/SSLZy/app/build/intermediates/cxx/Debug/4o431tr6/obj/arm64-v8a/libsslsy.so",
+      "runtimeFiles": [
+        "/storage/internal_new/project/SSLZy/app/build/intermediates/cxx/Debug/4o431tr6/obj/arm64-v8a/libdobby.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/bin/clang.lld",
+      "cppCompilerExecutable": "/opt/ndk/android-ndk-r29/toolchains/llvm/prebuilt/linux-arm64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

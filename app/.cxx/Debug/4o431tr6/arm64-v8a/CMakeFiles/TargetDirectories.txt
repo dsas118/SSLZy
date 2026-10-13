@@ -1,0 +1,16 @@
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/CMakeFiles/sslsy.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/CMakeFiles/edit_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/CMakeFiles/dobby.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/CMakeFiles/dobby_static.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/CMakeFiles/edit_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/CMakeFiles/rebuild_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/external/logging/CMakeFiles/logging.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/external/logging/CMakeFiles/edit_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/external/logging/CMakeFiles/rebuild_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/external/osbase/CMakeFiles/osbase.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/external/osbase/CMakeFiles/edit_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/external/osbase/CMakeFiles/rebuild_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/builtin-plugin/SymbolResolver/CMakeFiles/dobby_symbol_resolver.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/builtin-plugin/SymbolResolver/CMakeFiles/edit_cache.dir
+/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a/dobby/builtin-plugin/SymbolResolver/CMakeFiles/rebuild_cache.dir

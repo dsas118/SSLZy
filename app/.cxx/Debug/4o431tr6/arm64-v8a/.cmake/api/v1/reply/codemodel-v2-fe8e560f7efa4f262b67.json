@@ -1,0 +1,189 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "dobby",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-dobby-Debug-e3f06214715239d6f62f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "dobby",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "dobby/external/logging",
+					"jsonFile" : "directory-dobby.external.logging-Debug-0a5b2c672ebff8fa1ada.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "dobby/external/logging",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "dobby/external/osbase",
+					"jsonFile" : "directory-dobby.external.osbase-Debug-96c8c8761a88442594a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "dobby/external/osbase",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "dobby/builtin-plugin/SymbolResolver",
+					"jsonFile" : "directory-dobby.builtin-plugin.SymbolResolver-Debug-627bc28e43053bbf34a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "dobby/builtin-plugin/SymbolResolver",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sslsy",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Dobby",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "dobby::@fb579df6436f49169c19",
+					"jsonFile" : "target-dobby-Debug-b5139cbf9623af38276e.json",
+					"name" : "dobby",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dobby_static::@fb579df6436f49169c19",
+					"jsonFile" : "target-dobby_static-Debug-a286bdb3a22ef0c97484.json",
+					"name" : "dobby_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "dobby_symbol_resolver::@ae8170e007b0dbbeb132",
+					"jsonFile" : "target-dobby_symbol_resolver-Debug-a3989149dd4492d6e732.json",
+					"name" : "dobby_symbol_resolver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "logging::@9c6456fefc909ebba7e0",
+					"jsonFile" : "target-logging-Debug-8bb51ff8ed6c9e87445d.json",
+					"name" : "logging",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "osbase::@480db58ddda8864805da",
+					"jsonFile" : "target-osbase-Debug-d317a640fe4c9cd940c1.json",
+					"name" : "osbase",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sslsy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sslsy-Debug-eabd36463bb53a7c93b0.json",
+					"name" : "sslsy",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/storage/internal_new/project/SSLZy/app/.cxx/Debug/4o431tr6/arm64-v8a",
+		"source" : "/storage/internal_new/project/SSLZy/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
